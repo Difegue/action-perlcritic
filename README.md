@@ -13,7 +13,7 @@ To run Perl Critic on the Perl scripts located in `./lib`, `./script/*`, and `./
 
 ```yaml
 - name: Perl Critic
-      uses: ./.github/action-critic
+      uses: Difegue/action-perlcritic@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
