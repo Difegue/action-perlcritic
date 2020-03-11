@@ -1,5 +1,5 @@
-name: GitHub Action for Perl Critic
-description: Run Perl Critic on your codebase.
+name: 'GitHub Action for Perl Critic'
+description: 'Run Perl Critic on your codebase.'
 author: Difegue
 branding:
   color: blue

@@ -21,4 +21,5 @@ if [ $success -ne 0 ]; then
 
     exit 1
 fi
-exit $success
+
+exit 0
