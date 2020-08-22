@@ -1,7 +1,9 @@
 # GitHub Action for Perl Critic
 
 This Action allows you to run [Perl Critic](https://metacpan.org/pod/Perl::Critic) on your codebase directly from GitHub.  
-If wanted, it can also post violations as comments on commits/PRs.  
+Errors are reported as annotations on your check runs.  
+
+<img src="example.png" width="600">
 
 By default, Perl Critic uses a `.perlcriticrc` file, if it is present in the current directory.  
 Using the action's `args`, you can override any settings, as they're passed to `perlcritic` directly.
